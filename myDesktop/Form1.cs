@@ -29,7 +29,7 @@ namespace myDesktop
             Thread.Sleep(1000);
             int idProc = proc.Id;
             
-            MessageBox.Show(idProc.ToString());
+ //           MessageBox.Show(idProc.ToString());
 
             int i = 1;
             while (i>0)
