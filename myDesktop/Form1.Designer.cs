@@ -52,7 +52,7 @@
             this.panel1.Location = new System.Drawing.Point(22, 2);
             this.panel1.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(956, 944);
+            this.panel1.Size = new System.Drawing.Size(956, 500);
             this.panel1.TabIndex = 5;
             // 
             // panel2
@@ -64,18 +64,18 @@
             this.panel2.Controls.Add(this.labelComName);
             this.panel2.Controls.Add(this.button1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 931);
+            this.panel2.Location = new System.Drawing.Point(0, 570);
             this.panel2.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.panel2.MinimumSize = new System.Drawing.Size(0, 130);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(2292, 130);
+            this.panel2.Size = new System.Drawing.Size(1000, 130);
             this.panel2.TabIndex = 6;
             // 
             // labelTime
             // 
             this.labelTime.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.labelTime.AutoSize = true;
-            this.labelTime.Location = new System.Drawing.Point(2095, 54);
+            this.labelTime.Location = new System.Drawing.Point(803, 54);
             this.labelTime.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.labelTime.Name = "labelTime";
             this.labelTime.Size = new System.Drawing.Size(67, 24);
@@ -87,7 +87,7 @@
             // 
             this.labelDate.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.labelDate.AutoSize = true;
-            this.labelDate.Location = new System.Drawing.Point(1677, 54);
+            this.labelDate.Location = new System.Drawing.Point(803, 30);
             this.labelDate.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.labelDate.Name = "labelDate";
             this.labelDate.Size = new System.Drawing.Size(54, 24);
@@ -127,7 +127,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(2292, 1061);
+            this.AutoSize = true;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.ClientSize = new System.Drawing.Size(1000, 700);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
